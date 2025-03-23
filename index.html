@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FYP Supervisor Management</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./supervisors.js" defer></script>
+
+  <style>
+    body {
+      background-image:url(./src/assets/images/joanna-kosinska-9gfGDbxuqrU-unsplash.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+  
+    </style>
+</head>
+<body class="min-h-screen font-sans text-gray-800">
+  <div class="max-w-7xl mx-auto px-4 py-10">
+    
+    <header class="mb-10 text-center bg-blur p-6 rounded-lg shadow-lg">
+      <h1 class="text-4xl font-bold text-blue-800 mb-2">FYP Supervisor Management System</h1>
+      <p class="text-lg text-gray-700">Find and bookmark your ideal FYP supervisor.</p>
+    </header>
+
+    <!-- Filter Section -->
+<!-- Filter Section -->
+<section class="bg-blur p-6 rounded-lg shadow-lg mb-8">
+  <h2 class="text-2xl font-semibold mb-4 text-blue-700 flex items-center gap-2">
+    🔍 Filter Supervisors
+  </h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+
+    <!-- Research Domain Dropdown -->
+    <div>
+      <label for="filter-domain" class="block text-gray-700 font-medium mb-1">Select Research Domain</label>
+      <div class="relative">
+        <select id="filter-domain" class="w-full border border-gray-300 rounded px-4 py-2 appearance-none focus:outline-none focus:ring-2 focus:ring-blue-400">
+          <option value="All">All</option>
+          <option value="Artificial Intelligence">Artificial Intelligence</option>
+          <option value="Cybersecurity">Cybersecurity</option>
+          <option value="Data Science">Data Science</option>
+          <option value="Cloud Computing">Cloud Computing</option>
+          <option value="Computer Vision">Computer Vision</option>
+          <option value="Natural Language Processing">Natural Language Processing</option>
+          <option value="Internet of Things">Internet of Things</option>
+          <option value="Software Engineering">Software Engineering</option>
+          <option value="Human-Computer Interaction">Human-Computer Interaction</option>
+          <option value="Blockchain">Blockchain</option>
+        </select>
+        <div class="pointer-events-none absolute right-3 top-2.5 text-gray-500">
+          ▼
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional: Available Slot Filter -->
+    <div>
+      <label for="availableOnly" class="block text-gray-700 font-medium mb-2">Availability</label>
+      <div class="flex items-center space-x-3">
+        <input type="checkbox" id="availableOnly" class="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-400 rounded">
+        <label for="availableOnly" class="text-gray-600">Show only available supervisors</label>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Supervisor Cards Section -->
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4 bg-blur p-3 rounded-lg shadow-md">Supervisor Profiles</h2>
+      <div id="supervisor-list" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- Bookmarked Supervisors -->
+    <section class="mt-12 bg-blur p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-4">Bookmarked Supervisors</h2>
+      <ul id="bookmarked-supervisors" class="list-disc pl-6 text-gray-800 text-lg space-y-1"></ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-16 text-center text-white text-sm bg-gray-800 py-4 rounded-lg shadow-md">
+      &copy; 2025 University Project. All rights reserved.
+    </footer>
+
+  </div>
+ 
+</body>
+</html>
