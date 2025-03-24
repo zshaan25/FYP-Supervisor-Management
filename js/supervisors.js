@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const supervisors = [
-    { id: 1, name: "Dr. Nadia Khan", researchDomain: "Artificial Intelligence", availableSlots: 2, contactInfo: "ayesha.khan@university.edu" },
-    { id: 2, name: "Prof. Salman Irfan", researchDomain: "Cybersecurity", availableSlots: 0, contactInfo: "salman.raza@university.edu" },
-    { id: 3, name: "Dr. Maria Bibi", researchDomain: "Data Science", availableSlots: 3, contactInfo: "maria.ali@university.edu" },
-    { id: 4, name: "Dr. Marium Mehmood", researchDomain: "Cloud Computing", availableSlots: 1, contactInfo: "faisal.mehmood@university.edu" },
-    { id: 5, name: "Dr. Nadeem Akhtar", researchDomain: "Computer Vision", availableSlots: 2, contactInfo: "sana.tariq@university.edu" },
-    { id: 6, name: "Dr. Shahid Yousuf", researchDomain: "Natural Language Processing", availableSlots: 4, contactInfo: "bilal.haider@university.edu" },
-    { id: 7, name: "Prof. Khurram Ijaz", researchDomain: "Internet of Things", availableSlots: 0, contactInfo: "nadia.zafar@university.edu" },
-    { id: 8, name: "Dr. Mehtab Ahmad", researchDomain: "Software Engineering", availableSlots: 2, contactInfo: "imran.shah@university.edu" },
+    { id: 1, name: "Dr. Nadia Khan", researchDomain: "Artificial Intelligence", availableSlots: 2, contactInfo: "nadia.khan@university.edu" },
+    { id: 2, name: "Prof. Salman Irfan", researchDomain: "Cybersecurity", availableSlots: 0, contactInfo: "salman.irfan@university.edu" },
+    { id: 3, name: "Dr. Maria Bibi", researchDomain: "Data Science", availableSlots: 3, contactInfo: "maria.bibi@university.edu" },
+    { id: 4, name: "Dr. Marium Mehmood", researchDomain: "Cloud Computing", availableSlots: 1, contactInfo: "marium.mehmood@university.edu" },
+    { id: 5, name: "Dr. Nadeem Akhtar", researchDomain: "Computer Vision", availableSlots: 2, contactInfo: "nadeem.akhtar@university.edu" },
+    { id: 6, name: "Dr. Shahid Yousuf", researchDomain: "Natural Language Processing", availableSlots: 4, contactInfo: "shahid.yousuf@university.edu" },
+    { id: 7, name: "Prof. Khurram Ijaz", researchDomain: "Internet of Things", availableSlots: 0, contactInfo: "khurram.ijaz@university.edu" },
+    { id: 8, name: "Dr. Mehtab Ahmad", researchDomain: "Software Engineering", availableSlots: 2, contactInfo: "mehtab.ahmad@university.edu" },
     { id: 9, name: "Dr. Hina Akram", researchDomain: "Human-Computer Interaction", availableSlots: 1, contactInfo: "hina.akram@university.edu" },
     { id: 10, name: "Dr. Usman Javed", researchDomain: "Blockchain", availableSlots: 2, contactInfo: "usman.javed@university.edu" }
   ];
